@@ -1,0 +1,315 @@
+
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("YUB-Hub: Driving Empire", "Sentinel")
+    local UserInputService = game:GetService("UserInputService")
+	local GuiService = game:GetService("GuiService")
+	local LocalPlayer = game:GetService("Players").LocalPlayer
+
+    -- MAIN
+    local Main = Window:NewTab("Auto-Race")
+    local MainSection = Main:NewSection("Auto-Race")
+ 
+
+ 
+    MainSection:NewDropdown("Auto-Race","Auto Race", {"Drag: Auto Race"}, function(v)
+getgenv().autorace =  true
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildWhichIsA("Humanoid")
+local SeatPart = Humanoid.SeatPart
+local Vehicle = SeatPart.Parent
+
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-806.709412, 31.6986351, 255.431885, 0.535204113, 0.283660412, -0.795671642, 0, 0.941932321, 0.335802943, 0.844722867, -0.179723114, 0.50412601))
+Character.Parent = workspace
+
+while getgenv().autorace ==  true do
+    wait()
+if getgenv().autorace ==  true and game:GetService("Workspace").Game.Races.Queues.Drag.Drag.Container.State.Title.Text == "Starting in 0! (2/2)" then 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "YUB",
+Text = "Start Race You Woner",
+Duration = 35,
+Button1 = "Please wait!",
+})
+
+wait(25)
+
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-2467.58862, 30.385622, 285.217621, -0.116438776, -0.862300992, 0.492827624, 0, 0.496202886, 0.86820662, -0.993197918, 0.10109292, -0.057777252))
+Character.Parent = workspace
+
+wait(1)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-806.709412, 31.6986351, 255.431885, 0.535204113, 0.283660412, -0.795671642, 0, 0.941932321, 0.335802943, 0.844722867, -0.179723114, 0.50412601))
+Character.Parent = workspace
+wait(1)
+end
+end
+    end)
+ 
+
+   MainSection:NewDropdown("Auto-Race","Auto Race Highway", {"Highway: Auto Race"},  function(v)
+getgenv().autorace =  true
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildWhichIsA("Humanoid")
+local SeatPart = Humanoid.SeatPart
+local Vehicle = SeatPart.Parent
+
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-22.4622154, 29.634119, -148.477692, -0.795819283, -0.368374527, 0.48059535, 1.49011612e-08, 0.793671727, 0.608346343, -0.605534196, 0.48413375, -0.631619275))
+Character.Parent = workspace
+
+while getgenv().autorace ==  true do
+    wait()
+if getgenv().autorace ==  true and game:GetService("Workspace").Game.Races.Queues.Highway.Highway.Container.State.Title.Text == "Starting in 0! (2/8)" then 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "YUB",
+Text = "Start Race",
+Duration = 35,
+Button1 = "Please wait!",
+})
+
+wait(22)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(489.667175, 69.9663162, 84.6947556, 0.833284974, -0.281794488, 0.475634426, 0, 0.860341609, 0.50971806, -0.552843809, -0.424740404, 0.716909))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(2171.31177, 75.2387238, -767.612854, -0.927519739, 0.235492989, -0.290259004, -1.4901163e-08, 0.776562154, 0.630040586, 0.37377435, 0.584375083, -0.7202766))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(3054.81177, 72.6725998, -1155.55688, -0.926995695, 0.152939662, -0.342474014, 0, 0.913088739, 0.407760799, 0.375072002, 0.377992511, -0.8464292))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(4636.93213, 72.685524, -1823.74048, -0.949249327, 0.129246593, -0.286742091, 0, 0.911668301, 0.410926819, 0.314524591, 0.390072018, -0.86540055))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(5775.12793, 71.6519775, -2518.70361, -0.838223636, 0.161798701, -0.520770788, 0, 0.954970479, 0.296700597, 0.545326531, 0.248701453, -0.8004789))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(7152.87549, 72.3920212, -3584.44897, -0.796395957, 0.304145515, -0.522732198, 1.4901163e-08, 0.864340782, 0.502906442, 0.604775548, 0.400512666, -0.688357532))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(8026.62109, 71.2252502, -4471.40674, -0.496114612, 0.279460222, -0.822053671, 0, 0.946786106, 0.321863443, 0.868257105, 0.159681156, -0.469714))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(8630.89062, 37.0257721, -5327.82227, -0.60558784, 0.359759659, -0.70981431, 1.49011594e-08, 0.891974807, 0.452085227, 0.795778394, 0.273777306, -0.54016912))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(9545.49707, 86.7533798, -6646.25977, -0.51676172, 0.182484046, -0.836454988, -7.4505806e-09, 0.977019548, 0.213150099, 0.856129289, 0.110147819, -0.50488627))
+Character.Parent = workspace
+wait(2)
+Vehicle.PrimaryPart = SeatPart
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-22.4622154, 29.634119, -148.477692, -0.795819283, -0.368374527, 0.48059535, 1.49011612e-08, 0.793671727, 0.608346343, -0.605534196, 0.48413375, -0.631619275))
+Character.Parent = workspace
+
+end
+end
+
+   end)
+   
+   
+    local Main = Window:NewTab("Auto-Fram")
+    local MainSection = Main:NewSection("Auto-Fram")
+    
+  -- auto fram
+      MainSection:NewDropdown("Auto-Fram","Auto fram", {"Auto fram"}, function(v)
+        
+getgenv().lol = true
+
+
+
+
+
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "YUB",
+Text = "Welcome",
+Duration = 4,
+Button1 = "Please wait 4sc",
+})
+
+
+
+
+
+local UserInputService = game:GetService("UserInputService")
+local GuiService = game:GetService("GuiService")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildWhichIsA("Humanoid")
+
+local SeatPart = Humanoid.SeatPart
+local Vehicle = SeatPart.Parent
+local Wheels = Vehicle:FindFirstChild("Wheels")
+local Body = Vehicle:FindFirstChild("Body")
+spawn(function()
+        wait(4.5)
+    while getgenv().lol == true do
+        wait()
+	workspace.CurrentCamera.CameraSubject:ApplyImpulse(
+	workspace.CurrentCamera.CameraSubject.CFrame.LookVector * Vector3.new(0.4e3,0.4e3,0.4e3)
+	)
+    end
+end)
+spawn(function()
+            wait(9.5)
+while wait(0) and getgenv().lol == true do
+        _getgenv().lol = true
+        wait(3)
+          getgenv().lol = false 
+        end
+end)
+if SeatPart:FindFirstAncestor("Body") then 
+Vehicle = SeatPart:FindFirstAncestor("Body").Parent
+Wheels = (Wheels ~= nil and Wheels) or Vehicle:FindFirstChild("Wheels")
+end
+
+if game.PlaceId == 3351674303 then
+Wheels = Vehicle:FindFirstChild("Core")
+end
+
+Vehicle.PrimaryPart = SeatPart
+
+local function GetWheelVelocity()
+if game.PlaceId == 3351674303 then
+return Wheels:GetChildren()[1]["Wheel"].Velocity, Wheels:GetChildren()[1]["Wheel"].RotVelocity
+end
+for index, value in pairs(Wheels:GetDescendants()) do
+if value:IsA("BasePart") then
+return value.Velocity, value.RotVelocity
+end
+end
+end
+
+local function SetWheelVelocity(Velocity, RotVelocity)
+for index, value in pairs(Wheels:GetDescendants()) do
+pcall(function()
+value.Velocity = Velocity
+if RotVelocity ~= nil then
+value.RotVelocity = RotVelocity
+end
+end)
+end
+end
+
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-1251.70325, 25.9371185, -2596.08472, 0.0296371728, -0.148865864, 0.988413155, 0, 0.988847554, 0.14893128, -0.999560773, -0.00441390229, 0.029306642))
+Character.Parent = workspace
+
+if not Vehicle or not Vehicle.Parent or not Humanoid.SeatPart then
+end
+while wait(12) and getgenv().lol == true do
+local Speed = ((2/12) * (60/88)) * SeatPart.Velocity.Magnitude
+if SeatPart.Position.X > -14294.7607 then
+Character.Parent = Vehicle
+Vehicle:MoveTo(Vector3.new(-1251.70325, 25.9371185, -2596.08472, 0.0296371728, -0.148865864, 0.988413155, 0, 0.988847554, 0.14893128, -0.999560773, -0.00441390229, 0.029306642))
+Character.Parent = workspace
+end
+end
+
+    
+        end)
+
+    -- PLAYER
+    local Player = Window:NewTab("Boost Speed")
+    local PlayerSection = Player:NewSection("Player")
+ 
+    PlayerSection:NewSlider("Car Speed", "Changes the Speed", 100,0, function(v)
+        
+        --w Speed
+	game:GetService("RunService").Stepped:Connect(function()
+		if GuiService.MenuIsOpen then
+			return
+		end
+		if workspace.CurrentCamera.CameraSubject:IsDescendantOf(LocalPlayer.Character) then
+			return
+		end
+		if UserInputService:IsKeyDown(Enum.KeyCode.W
+			) then
+			workspace.CurrentCamera.CameraSubject:ApplyImpulse(
+				workspace.CurrentCamera.CameraSubject.CFrame.LookVector * Vector3.new(v,v,v)
+			)
+		end
+	end)
+	
+	--LeftShift Speed
+	game:GetService("RunService").Stepped:Connect(function()
+		if GuiService.MenuIsOpen then
+			return
+		end
+		if workspace.CurrentCamera.CameraSubject:IsDescendantOf(LocalPlayer.Character) then
+			return
+		end
+		if UserInputService:IsKeyDown(Enum.KeyCode.LeftShift
+			) then
+			workspace.CurrentCamera.CameraSubject:ApplyImpulse(
+				workspace.CurrentCamera.CameraSubject.CFrame.LookVector * Vector3.new(v,v,v)
+			)
+
+		    end
+	    end)    
+	end)
+	
+	--brakes
+	    PlayerSection:NewSlider("brakes", "Changes the brakes", 100,0, function(v)
+
+	game:GetService("RunService").Stepped:Connect(function()
+		if GuiService.MenuIsOpen then
+			return
+		end
+		if workspace.CurrentCamera.CameraSubject:IsDescendantOf(LocalPlayer.Character) then
+			return
+		end
+		if UserInputService:IsKeyDown(Enum.KeyCode.S
+			) then
+			workspace.CurrentCamera.CameraSubject:ApplyImpulse(
+				workspace.CurrentCamera.CameraSubject.CFrame.LookVector * Vector3.new(-v,-v,-v)
+			)
+		end
+	end)
+	end) 
+
+    -- PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+ 
+    PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed", 450, 16, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+    end)
+ 
+    PlayerSection:NewSlider("Jumppower", "Changes the jumppower", 450, 50, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+    end)
